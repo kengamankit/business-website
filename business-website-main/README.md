@@ -75,8 +75,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For questions or feedback, please reach out to:
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- Email: kengamankit@gmail.com
+- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/kengamankit)
 
 ---
 
