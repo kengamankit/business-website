@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; 
+
+}
+body{
+    height: 2500px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 20px; */
+    height: 80px;
+    border: 2px solid black;
+    padding: 0px 40px;
+    background-color:  #08375B;
+    color: aliceblue;
+}
+
+.logo h1{
+    font-size: 22px;
+    font-weight: 380;
+}
+.lists{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    color: #fff;
+    font-weight: 380;
+}
+.button img{
+    height:  20px;
+    width: 25px;
+    margin-top: 8px;
+    color: #fff;
+    border: none;
+}
+.cont-btn:hover{
+    background-color: #08375B;
+    color: #fff;
+    transition: 0.5s;
+}
+     /* HEAEDER */
+
+.img-section img{
+    height: 700px;
+    width: 1512px;
+}
+
+.content-1{
+    /* border: 2px solid black; */
+    width: 800px;
+    height: 280px;
+    background-color: #fff;
+}
+
+.content{
+    position: relative;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.content-1{
+    position: absolute;
+    bottom: -30px;
+    right: 330px;
+    padding-top: 30px;
+}
+
+.cont-h1{
+    font-size: 60px;
+    color: #08375B;
+    font-weight: 400;
+}
+.content-1 h3{
+    font-weight: 400;
+    font-size: px;
+}
+.cont-btn{
+    padding: 15px 55px;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #08375B;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid  #08375B;
+}
+
+          /* CONTENT-1 */
+
+.services{
+    /* border: 1px solid black; */
+    width: 370px;
+    text-align: center;
+}
+.serv{
+    font-size: 35px;
+    font-weight: 500;
+    color: #08375B;
+}
+.btn-mf{
+    margin-top: 35px;
+    padding: 18px 50px;
+    color: #08375B;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #01080e;
+}
+
+.para{
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.card-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-mf:hover{
+    background-color: #08375B;
+    color: #fff;
+    transition: 0.5s;
+}
+
+   /* CONTENT-2 */
+ .img-sec2 img{
+    height: 600px;
+    width: 1520px;
+    opacity: 0.5;
+}
+   .cont-2{
+    border: 2px solid black;
+    text-align: center;
+   }
+   .h1-au{
+    font-size: 50px;
+    color: #08375B;
+    font-weight: 300;
+    padding-bottom: 30px;
+   }
+   .img-cnt{
+    position: absolute;
+    bottom: 65px;
+    right: 403px;
+    /* border: 1px solid red; */
+    /* padding: 20px; */
+   }
+   .cont-2{
+    position: relative;
+   }
+   .btn-lm{
+    margin-top: 40px;
+    padding: 18px 50px;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #fff;
+    border: 1px solid #01080e;
+    color: #08375B;
+   }
+   .btn-lm:hover{
+    background-color: #08375B;
+    color: #fff;
+    transition: 0.5s;
+   }
+
+     /* CONTENT-3 */
+
+.h1-os{
+    text-align: center;
+}
+.heading{
+    font-size: 40px;
+    color: #08375B;
+    font-weight: 300;
+}
+p{
+    margin-top: 10px;
+    font-weight: 300;
+}
+.box{
+     gap: 60px;
+     margin-top: 40px;
+     padding: 0px 30px;
+}
+.box-1 img{ 
+        height: 300px;
+}
+.box-2 img{ 
+        height: 300px;
+}
+.box-3 img{ 
+        height: 300px;
+}
+.box-4 img{ 
+        height: 300px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+      /* CONTENT-4 */
+
+ .cnt4-heading{
+        text-align: center;
+      }
+.cnt-4{
+    border: 1px solid black;
+    height: auto;
+}
+.cnt4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-1{
+    border: 1px solid red;
+    width: 130px;
+
+}
+svg{
+    height: 130px;
+    width: 130px;
+}
